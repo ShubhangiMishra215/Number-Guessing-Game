@@ -95,7 +95,7 @@ High scores are stored in `highScore.json` in the project directory, in the foll
 
 ```
 number-guessing-game/
-├── index.js         # Main game logic
+├── number-game.js         # Main game logic
 ├── highScore.json   # Auto-generated high score storage
 └── README.md
 ```
