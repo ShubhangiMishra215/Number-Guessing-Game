@@ -1,5 +1,7 @@
 # Number Guessing Game
 
+**Project URL:** https://github.com/ShubhangiMishra215/Number-Guessing-Game
+
 A command-line number guessing game built with Node.js. The game picks a random number between 1 and 100, and you have to guess it within a limited number of attempts based on the difficulty you choose. High scores are tracked per difficulty and saved locally, so you can try to beat your best run every time you play.
 
 ## Features
@@ -31,8 +33,10 @@ A command-line number guessing game built with Node.js. The game picks a random 
 Run the game with:
 
 ```bash
-node number-game.js
+node index.js
 ```
+
+(Replace `index.js` with the actual filename if different.)
 
 1. Choose a difficulty level by entering `1`, `2`, or `3`:
    - `1` → Easy (10 chances)
@@ -95,7 +99,7 @@ High scores are stored in `highScore.json` in the project directory, in the foll
 
 ```
 number-guessing-game/
-├── number-game.js         # Main game logic
+├── index.js         # Main game logic
 ├── highScore.json   # Auto-generated high score storage
 └── README.md
 ```
@@ -106,6 +110,10 @@ number-guessing-game/
 - Configurable number range instead of a fixed 1–100
 - Additional hint types (e.g., "close" vs "far" proximity hints)
 - Unit tests for game logic
+
+## Project URL
+
+https://github.com/ShubhangiMishra215/Number-Guessing-Game
 
 ## License
 
